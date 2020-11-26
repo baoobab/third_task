@@ -17,6 +17,7 @@ class MyWidget(QMainWindow):
         self.do_paint = False
         self.pushButton.clicked.connect(self.paint)
 
+
     def paint(self):
         self.do_paint = True
         self.repaint()
